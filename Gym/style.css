@@ -1,0 +1,170 @@
+/* navigation bar  */
+body,html {
+	height:100%;
+    margin: 0;
+}
+.bg{
+	background-image:url("GYM3.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+header{
+	margin-top:20px;
+    position:fixed;
+	padding:1px;
+	width:100%;
+	top:0;
+	left:0;
+	text-align:10px;
+}
+
+#navbar{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 0px;
+}
+/* navigation bar logo  */
+.logo{
+    margin: 5px 10px;
+
+}
+/* navigation bar logo img  */
+.logo img{
+    height: 80px;
+    width: 60px;
+
+}
+/* navigation bar list styling  */
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 0px;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1rem;
+	color:black;
+
+}
+#navbar ul li a{
+    display: flex;
+    color: black;
+    padding: 3px 22px;
+    text-decoration: none;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+	color:green;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.btn{
+	word-spacing:10px;
+    margin: 2px 50px;
+    padding: 1px 43px;
+    color: black;
+    border: none;
+}
+/*.btn:hover{
+    color: green;
+    background-color: aquamarine;
+
+}*/
+/* home (continer) section  */
+#container h1{
+    display: block;
+    padding: 35px 350px;
+    margin: 30px -34px;
+    font-size: 3rem;
+}
+.contain{
+	padding:40px;
+	width:30%;
+    align-items: center;
+	float:left;
+	margin-top:120px;
+	margin-right:1000px;
+	margin-left:10px;
+}
+.name{
+    display: inline-block;
+    color:black;
+    padding: 20px 40px;
+    margin: 10px 230px;
+    text-align: center;
+}
+#container::before{
+    content: "";
+    position: absolute;
+    top: 102px;
+    left: 4px;
+    height: 100%;
+    width: 100%;
+    z-index: -4;
+}
+.bte{
+    background-color: #ed5f07;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+	margin-left:290px;
+	border-radius:20px;
+    font-size: 1rem;
+    display: inline-block;
+    
+}
+.bte:hover{
+    color: rgb(23, 26, 25);
+    background-color: rgb(14, 247, 247);
+   cursor: pointer;
+}
+.contains{
+ color:white;
+}
+button[type="button"]{
+	margin:2px 20px;
+	padding:2px 20px;
+	border-radius:10px;
+}
+#1{
+	text-decoration:none;
+	color:black;
+}
+#2{
+	text-decoration:none;
+	color:black;
+}
+#3{
+	text-decoration:none;
+}
+#fg1{
+	border-radius:50px;
+}
+.buts{
+	border-radius:10px;
+	background-color:#4FCE5D;
+	color:white;
+	
+}
+input[type="text"]{
+	border-radius:20px;
+	background-color:white;
+}
+.fg4{
+	font-size:20px;
+	margin-left:280px;
+}

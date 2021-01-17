@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<title>WEIGHT to WATER Converter</title>
+<body>
+
+<h2>WEIGHT TO WATER Converter</h2>
+<p>TYPE YOUR BODY WEIGHT IN KG AND KNOW HOW MUCH  WATER YOU MUST DRINK:</p>
+
+<p>
+  <label>BODY WEIGHT</label>
+  <input id="inputMeters" type="number" placeholder="ENTER WEIGHT IN KG" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>YOU MUST DRINK : <span id="outputFeet"></span></p> <p>Liters OF WATER DAILY</p>
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputFeet").innerHTML=(valNum *2.205*0.67*29.574*0.001).toFixed(2);
+}
+</script>
+</body>
+</html>
